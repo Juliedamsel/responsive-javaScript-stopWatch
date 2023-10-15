@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ede;
+    font-family: 'Courier Prime', monospace;
+}
+
+.stopwatch{
+    width: 100%;
+    max-width: 800px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(images/beach.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+    margin: 150px auto;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+    
+}
+
+.stopwatch h1{
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.buttons{
+    padding: 0.4rem 1rem;
+    border-radius: 15px;
+    border-radius: 1px solid #f8f8f8;
+    margin: 0 0.2rem;
+    
+}
+
+button:hover {
+    background-color: rgba(0,0,0,0.4);
+    color:#f8f8f8
+}
+
+#start, #reset, #stop {
+    font-size: larger;
+    width: 70px;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    body{
+        background-color: darkgray;
+    }
+    .stopwatch{
+        width: 100%;
+        background-position: center;
+    }
+
+    .stopwatch h1 {
+        margin-bottom: 15px;
+        padding: 10px;
+        font-size: 70px;
+    }
+
+    button:hover{
+        color: aqua;
+    }
+
+    #start, #stop, #reset {
+        font-size: x-large;
+        width: 75px;
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+    body{
+        background-color: lavender;
+    }
+
+    .stopwatch{
+        width: 100%;
+        background-position: center;
+    }
+
+    .stopwatch h1 {
+        margin-bottom: 20px;
+        padding: 10px;
+        font-size: 75px;
+    }
+
+    
+    button:hover{
+        color: cornflowerblue;
+    }
+
+    #start, #stop, #reset {
+             font-size: x-large;
+             width: 90px;
+    }
+}
