@@ -70,7 +70,7 @@ button:hover {
     }
 
     #start, #stop, #reset {
-        font-size: x-large;
+        font-size: large;
         width: 75px;
     }
 }
@@ -98,7 +98,7 @@ button:hover {
     }
 
     #start, #stop, #reset {
-             font-size: x-large;
-             width: 90px;
+             font-size: large;
+             width: 80px;
     }
 }
