@@ -46,6 +46,7 @@ button:hover {
 #start, #reset, #stop {
     font-size: larger;
     width: 70px;
+    text-align: center;
 }
 
 
